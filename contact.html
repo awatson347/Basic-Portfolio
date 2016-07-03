@@ -1,39 +1,35 @@
 <!doctype html>
 <html>
-<head>
+<head> 
 <meta charset="utf-8">
-<title>Basic Portfolio</title>
 <link rel="stylesheet" href="assets/css/rest.css" type="text/css">
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-<font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;>
-
+<font-family: Ariel, helvetica nores, Helvetica, sans-serif;>
+<title>Second Try-Contact</title>
 </head>
 
-</style>
-</head>
-
+<!-- This is the Top -->
 <body>
-<div id="header">
-<div id="logo"><br>Alex Watson</div>
-<div id="nav">
-<a href="about.html">About</a>
-<a href="portfolio.html">Portfolio</a>
-<a href="contact.html">Contact</a>
-
-
-</div>
-</div>
-
-
-  <div id="section">
-  <div id="article">
-<div class="connect">Contact</div>
-<form>
+<div class="wrapper">
+  <Header>
+    <div id ="logo"><br/>Alex Watson</div>
+    <nav>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+<!-- This is the center section --> 
+<main>
+<!-- First section in the middle -->  
+  <section>
+    <div id="tops">Contact</div>
+    <form>
 <br>
   Name:<br>
-  <input type="text" name="name" value="John Smith"><br>
+  <input type="text" name="name" value="John Smith"><br/><br>
   Email:<br>
-  <input type="text" name="email" value="example@gmail.com"><br>
+  <input type="text" name="email" value="example@gmail.com"><br/><br>
   Message<br>
   <textarea name="message" rows="5" cols="30">
 
@@ -41,22 +37,22 @@
   <br>
   <input type="submit" name="submit" value="Submit" style="background-color: #4aaaa5" >
 </form>
-  </div>
+  </section>
+<!-- Side box with the links -->
+  <aside>
+    <div id="tops">Connect with Me</div>
+    <div id="icon">
+      <img src="assets/images/github.png" alt="Github">
+      <img src="assets/images/linkedin.png" alt="Linkedin">
+      <img src="assets/images/stackoverflow.png" alt="Stackoverflow">
+      </div>
+  </aside>
 
-  <div id="aside">
-  <div class="connect">Connect with Me</div>
-
-  <div id="icon">
-  	<img src="assets/images/github.png" alt="Github">
-  	<img src="assets/images/linkedin.png" alt="Linkedin">
-  	<img src="assets/images/stackoverflow.png" alt="Stackoverflow">
-  </div>
-  </div>
-  <div class="clearfix"></div>
-  </div>
-
-
-<div id="footer">
-<div id="copyright">&copy;Copyright 2016 Alex Watson</div></div>
-</body>
-</html>
+</main>
+<div class="push"></div>
+</div>
+</body> 
+<!-- This is the bottom -->
+<div class= "footer"><footer>
+  <div id="copyright">&copy;Copyright 2016 Alex Watson</div>
+</footer></div>
